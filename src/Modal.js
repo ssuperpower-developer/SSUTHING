@@ -79,7 +79,7 @@ class PrecautionModal extends Component {
               >
                 <Pressable
                   style={{ marginLeft: "50%", marginRight: 5 }}
-                  onPress={() => this.setModalVisible(!modalVisible)}
+                  onPress={() => this.setModalVisible(!modalVisible)} // 클릭 시 modal창 숨기기 구현필요
                 >
                   <SelectDateModal />
                 </Pressable>
@@ -170,7 +170,7 @@ class SelectDateModal extends Component {
               >
                 <Pressable
                   style={{ marginLeft: "50%", marginRight: 5 }}
-                  onPress={() => this.setModalVisible(!modalVisible)}
+                  onPress={() => this.setModalVisible(!modalVisible)} // 클릭 시 modal창 숨기기 구현필요
                 >
                   <NoticeModal />
                 </Pressable>

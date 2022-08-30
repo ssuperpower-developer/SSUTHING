@@ -32,30 +32,14 @@ export default class IdTable extends Component {
       { key: "itemIndex", title: "#", width: 50 },
       { key: "code", title: "물품", width: 150 },
       { key: "responsable", title: "수량", width: 100 },
-      // { key: "piezas", title: "반납 예정 시간" },
       { key: "reserve", title: "예약하기", width: 100 },
-      // { key: 'inicio', title: 'INICIO', width: 100 },
-      // { key: 'termino', title: 'ENTREGA', width: 100 },
-      // { key: 'hab', title: 'HABILITADO', width: 100 },
-      // { key: 'arm', title: 'ARMADO', width: 100 },
-      // { key: 'bar', title: 'BARRENADO', width: 100 },
-      // { key: 'sol', title: 'SOLDADO', width: 100 },
-      // { key: 'insp', title: 'LIBERACIÓN', width: 100 },
     ];
 
     this.rows = Array.apply(null, Array(125)).map((item, idx) => ({
       itemIndex: `${idx + 1}`,
       code: `TEST-ITEM-${idx}`,
       responsable: "2",
-      // piezas: Date(),
       reserve: <ReserveButton></ReserveButton>,
-      // inicio: '2019-02-01',
-      // termino: '2019-04-30',
-      // hab: 0,
-      // arm: 0,
-      // bar: 0,
-      // sol: 0,
-      // insp: 0,
     }));
 
     this.state = {

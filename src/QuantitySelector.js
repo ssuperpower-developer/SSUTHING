@@ -21,6 +21,7 @@ export default function QuantitySelector() {
       value={text}
       onValueChange={(value) => onChangeText(value)}
       useNativeAndroidPickerStyle={false}
+      // item 을 loop로 구현 필요
       items={[
         { label: "1", value: "1", key: "1" },
         { label: "2", value: "2", key: "2" },

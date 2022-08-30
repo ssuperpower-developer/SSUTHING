@@ -132,7 +132,7 @@ function UnderTab() {
       <Tab.Screen
         name="Notice"
         component={Notice}
-        options={{ tabBarIcon: makeIconRender("account") }}
+        options={{ tabBarIcon: makeIconRender("account") }} // 아이콘 수정 필요
       />
       <Tab.Screen
         name="MyList"
