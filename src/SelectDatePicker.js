@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { StyleSheet, TouchableOpacity, TextInput } from "react-native";
 import DateTimePickerModal from "react-native-modal-datetime-picker";
 
+// datepicker 설정인데 적용이 안되는 것 같음. 수정 필요
 Date.prototype.format = function (f) {
   if (!this.valueOf()) return " ";
 
